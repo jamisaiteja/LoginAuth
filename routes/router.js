@@ -6,7 +6,7 @@ const authenticate = require("../middleware/authenticate");
 const nodemailer = require("nodemailer");
 const jwt  = require("jsonwebtoken");
 
-// const secretKey = "srivenkatasaitejamodernmilliones"; 
+//const secretKey = "srivenkatasaitejamodernmilliones"; 
 const secretKey = process.env.SECRET;
 const basUrl = process.env.BASE_URL;
 

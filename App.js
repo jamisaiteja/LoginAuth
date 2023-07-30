@@ -8,7 +8,7 @@ const router = require("./routes/router");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
-console.log(process.env.SECRET);
+//console.log(process.env.SECRET);
 const port = process.env.PORT || 8009;
 
 // app.get("/", (req, res) => {
